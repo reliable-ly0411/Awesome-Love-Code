@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "upstream_repository": "sun0225SUN/Awesome-Love-Code",
+  "upstream_branch": "main",
+  "default_branch": "main",
+  "sync_branch": "sync-only/upstream-main",
+  "release_source": "none-recognized",
+  "automatic_publish": false,
+  "historical_backfill": false,
+  "preserve_local_workflows": true,
+  "manual_workflows": [],
+  "publication_note": "No automatic publisher is configured; manual workflows never bypass provenance, source, license or compatibility checks."
+}
