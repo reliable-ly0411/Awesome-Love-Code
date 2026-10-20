@@ -8,6 +8,11 @@
   "automatic_publish": false,
   "historical_backfill": false,
   "preserve_local_workflows": true,
-  "manual_workflows": [],
-  "publication_note": "No automatic publisher is configured; manual workflows never bypass provenance, source, license or compatibility checks."
+  "manual_workflows": [
+    "site-build.yml",
+    "site-promote.yml"
+  ],
+  "publication_note": "No automatic publisher is configured; manual workflows never bypass provenance, source, license or compatibility checks.",
+  "site_build_workflow": "site-build.yml",
+  "pages_activation_note": "Main/root currently auto-publishes. Do not activate this policy until separately approved Pages migration to workflow mode; preserve the current live deployment."
 }
