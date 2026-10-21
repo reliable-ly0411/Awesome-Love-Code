@@ -1,13 +1,14 @@
 # 安装依赖
 
 ```
-pip install turtle
+python3 -m venv venv && source venv/bin/activate
+pip3 install turtle
 ```
 
 # 运行
 
 ```
-python 文件名.py
+python index.py
 ```
 
 # 效果
